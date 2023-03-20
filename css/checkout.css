@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+:root {
+  --white: #ffffff;
+  --gray: #e4e4e4;
+  --dark-blue: #000C1D;
+  --light-blue: #0062E4;
+  --yellow: #EEAC48;
+}
+
+/* ----- Dashboard ----- */
+body {
+  background-color: var(--gray);
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cart-header {
+  background-color: var(--light-blue);
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cart-header button {
+  all: unset;
+}
+
+.back-arrow {
+  font-size: 1.5rem;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.back-arrow:hover {
+  background-color: var(--light-blue);
+  opacity: .5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cart-h2 {
+  color: var(--white);
+  padding-left: 1rem;
+}
+/*# sourceMappingURL=checkout.css.map */

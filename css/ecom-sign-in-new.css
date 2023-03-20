@@ -1,0 +1,152 @@
+:root {
+  --white: #ffffff;
+  --gray: #e4e4e4;
+  --dark-blue: #000C1D;
+  --light-blue: #0062E4;
+  --yellow: #EEAC48;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: var(--dark-blue);
+}
+
+/* ----- Inventory Login Container -----*/
+.main-container {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.login-container {
+  background-color: var(--white);
+  font-family: 'Poppins';
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 2.5rem 2rem;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.top-bar {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-container img.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.top-container h2 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.top-container p {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  color: #464646;
+}
+
+.enter-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.enter-pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: .5rem;
+}
+
+.login-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 700;
+  color: #464646;
+}
+
+.login-container form input {
+  padding: 11px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.login-container button.login-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  margin: 0 auto;
+  max-width: 100px;
+  top: 50%;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.bottom-part {
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (max-width: 430px) {
+  .login-container {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .login-container {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .login-container {
+    max-width: 275px;
+  }
+}
+/*# sourceMappingURL=ecom-sign-in-new.css.map */
